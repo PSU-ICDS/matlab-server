@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+<%- require "socket" -%>
+module use /storage/sys/<%= Socket.gethostname %>/modules
+module load "${MATLABPROXY:-matlabproxy}"
+module load <%= context.auto_modules_matlab %>
+
+module list
+
+cd $HOME
+
+matlab-proxy-app

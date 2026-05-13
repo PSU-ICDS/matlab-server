@@ -1,0 +1,19 @@
+---
+title: "MATLAB Server"
+cluster:
+  - 2e
+
+form:
+  - auto_modules_matlab
+  - auto_accounts
+  - auto_queues
+  - global_bc_num_hours
+  - global_cores
+  - global_memory
+  - global_advanced
+  - global_sbatch_options
+  - bc_email_on_started
+
+attributes:
+  auto_modules_matlab:
+    help: Requires MATLAB R2020b or later

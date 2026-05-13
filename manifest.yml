@@ -1,0 +1,11 @@
+---
+name: MATLAB
+category: Interactive Apps
+subcategory: Server Applications
+role: batch_connect
+metadata:
+  pintype: Interactive Servers
+description: |
+  Launch [MATLAB] from a web browser using `matlab-proxy`.
+
+  [MATLAB]: https://www.mathworks.com/products/matlab.html
