@@ -10,7 +10,7 @@ else
     echo "Using provided version: $VERSION"
 fi
 # Create a virtual environment with the name matlabproxy-<version>
-python3.11 -m venv "matlabproxy-$VERSION"
+python3.12 -m venv "matlabproxy-$VERSION"
 
 # Activate the virtual environment
 source "matlabproxy-$VERSION/bin/activate"
